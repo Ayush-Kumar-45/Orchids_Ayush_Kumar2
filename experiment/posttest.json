@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "In metallic nanowires, electrical conductivity typically:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decreases at small sizes due to electron scattering",
+        "b": "Increases at small sizes",
+        "c": "Remains constant regardless of size",
+        "d": "Becomes zero"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "At very small sizes, electron scattering at surfaces and boundaries increases, leading to reduced electrical conductivity.",
+        "b": "Electrical conductivity usually decreases, not increases.",
+        "c": "Conductivity changes with size due to scattering effects.",
+        "d": "Conductivity does not drop to zero solely because of size."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Why do magnetic nanoparticles exhibit superparamagnetism at small sizes?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "The spins align perfectly at all sizes",
+        "b": "The material is always in a magnetic state",
+        "c": "Thermal fluctuations cause random alignment of spins",
+        "d": "Electron scattering leads to ferromagnetism"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Spins do not align perfectly at all sizes, especially small ones.",
+        "b": "Magnetic state can fluctuate at nanoscale.",
+        "c": "Thermal energy is enough to randomly orient magnetic moments, causing superparamagnetism.",
+        "d": "Electron scattering does not cause ferromagnetism in this context."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following is the best indicator of a nanomaterial's enhanced chemical activity?",
+      "answers": {
+        "a": "High density",
+        "b": "Increased atomic number",
+        "c": "High surface area-to-volume ratio",
+        "d": "Reduced lattice energy"
+      },
+      "explanations": {
+        "a": "Density is not the key factor.",
+        "b": "Atomic number remains the same for an element.",
+        "c": "High surface area to volume ratio provides more reactive sites.",
+        "d": "Lattice energy may influence properties but is less direct."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In size vs property plots, non-linear variation is mostly observed due to:",
+      "answers": {
+        "a": "Classical mechanics effects",
+        "b": "Surface impurities",
+        "c": "Quantum size effects",
+        "d": "Constant atomic spacing"
+      },
+      "explanations": {
+        "a": "Classical mechanics generally predicts linear or smooth changes.",
+        "b": "Surface impurities affect properties but are not the main cause of non-linearity.",
+        "c": "Quantum size effects cause distinct non-linear behavior at nanoscale.",
+        "d": "Atomic spacing changes with size and affects properties."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which property becomes dominant in nanoparticles but is negligible in bulk materials?",
+      "answers": {
+        "a": "Volume",
+        "b": "Surface properties",
+        "c": "Atomic weight",
+        "d": "Gravitational interaction"
+      },
+      "explanations": {
+        "a": "Volume is dominant in bulk materials, not nanoparticles.",
+        "b": "Surface properties dominate at the nanoscale due to increased surface area.",
+        "c": "Atomic weight is constant and not size-dependent.",
+        "d": "Gravitational interaction is negligible at this scale."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     }
   ]
 }
