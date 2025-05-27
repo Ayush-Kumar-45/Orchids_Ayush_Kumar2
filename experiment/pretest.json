@@ -2,38 +2,89 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following is the primary reason for changes in electronic properties of nanomaterials at small sizes?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Surface corrosion",
+        "b": "Quantum confinement",
+        "c": "Thermal expansion",
+        "d": "Chemical doping"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Surface effects exist but quantum confinement dominates at small scales.",
+        "b": "Quantum confinement causes discrete energy levels, altering electronic properties.",
+        "c": "Thermal expansion is not the main factor here.",
+        "d": "Chemical doping changes properties, but this question refers to size effects."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What happens to the melting point of nanoparticles as their size decreases?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "It increases",
+        "b": "It becomes infinite",
+        "c": "It remains unchanged",
+        "d": "It decreases"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Smaller particles don’t have higher melting points.",
+        "b": "Infinite melting points are not realistic.",
+        "c": "Melting points change with size.",
+        "d": "Decreased size leads to lower melting points due to surface effects."
+      },
+      "correctAnswer": "d",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why are nanomaterials often more chemically reactive than bulk materials?",
+      "answers": {
+        "a": "More impurities",
+        "b": "Lower energy levels",
+        "c": "Higher surface area to volume ratio",
+        "d": "Smaller atomic radii"
+      },
+      "explanations": {
+        "a": "It’s not mainly about impurities.",
+        "b": "Energy levels are influenced but not the key reason.",
+        "c": "Higher surface area means more active sites for reactions.",
+        "d": "Atomic radii stay roughly the same."
       },
       "correctAnswer": "c",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "As the size of a semiconductor nanoparticle decreases, the band gap energy typically:",
+      "answers": {
+        "a": "Decreases",
+        "b": "Remains constant",
+        "c": "Increases",
+        "d": "Becomes negative"
+      },
+      "explanations": {
+        "a": "Band gap increases, not decreases, with smaller size.",
+        "b": "It does not stay constant.",
+        "c": "Smaller size leads to larger band gaps due to quantum effects.",
+        "d": "Negative band gaps are not physical."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which one of the following is not typically affected by the nanoscale size of a material?",
+      "answers": {
+        "a": "Optical properties",
+        "b": "Electrical conductivity",
+        "c": "Atomic number",
+        "d": "Magnetic behavior"
+      },
+      "explanations": {
+        "a": "Optical properties can change significantly at nanoscale.",
+        "b": "Electrical conductivity can be influenced by quantum effects.",
+        "c": "Atomic number is an intrinsic property of an element.",
+        "d": "Magnetic behavior can change at small scales."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
     }
   ]
 }
