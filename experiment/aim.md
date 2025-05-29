@@ -1,6 +1,13 @@
 ### Aim of the experiment
-1 - To adjust reaction conditions (pressure, temperature, concentration) to shift equilibrium toward maximum product yield.
+  
+To adjust reaction conditions to shift equilibrium for maximum product yield, maintain system equilibrium efficiently, and optimize industrial reactions using equilibrium principles.
 
-2 - To counteract external changes and maintain system equilibrium efficiently in chemical processes.
+1. Shifting Equilibrium Toward Product Formation
+Adjusting pressure, temperature, and concentration to favor product yield.
 
-3 - To optimize industrial reactions (like ammonia synthesis) by applying equilibrium principles for better efficiency and output.
+2. Maintaining Chemical Equilibrium
+Counteracting external changes to keep the system balanced.
+
+3. Optimizing Industrial Processes
+Applying equilibrium concepts to enhance efficiency in large-scale reactions like ammonia synthesis.
+
