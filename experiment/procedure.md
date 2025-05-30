@@ -4,7 +4,7 @@ _****Procedure:****_<br>
 ****Step 2:-**** Select the Nanomaterial type.<br>
 ****Step 3:-**** Select the property to plot.<br>
 ****Step 4:-**** Select the Nanoparticle shape.<br>
-****Step 4:-**** Enter the Nanomaterial size.<br>
+****Step 5:-**** Enter the Nanomaterial size.<br>
 ****Step 5:-**** Mark experimental fluctuations.<br>
 ****Step 6:-**** Mark the Theoretical trendline.<br>
 ****Step 7:-**** Click on the "Run simulation".<br>
