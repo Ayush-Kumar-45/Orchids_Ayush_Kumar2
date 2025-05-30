@@ -8,7 +8,8 @@
 
 ### About the Experiment 
 
-Nanomaterial Size vs Property Plotter is a tool that visualizes how key material properties (like optical, electrical, or mechanical behavior) change with nanoparticle size, helping researchers analyze nanoscale effects easily.
+The Electrochemical Reactor Virtual Lab is an interactive platform to simulate and study electrochemical processes, helping users explore reactor behavior under various conditions.
+It enhances learning by providing safe, cost-effective virtual experiments on topics like electrode reactions, current efficiency, and mass transfer.
 
 <b>Name of Developer | <b> Dr. Ravish Singh 
 :--|:--|
