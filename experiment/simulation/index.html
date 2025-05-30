@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nanomaterial Size vs Property Plotter with Fluctuations</title>
-    <link rel="stylesheet" href="./css/main.css">
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
+    <header>
+        <h1>Nanomaterial Size vs Property Plotter</h1>
+        <p>Explore the fascinating world of nanoscale properties</p>
+    </header>
+
     <div class="container">
-        <h1>Nanomaterial Size vs Property Plotter with Experimental Fluctuations</h1>
+        
+        <div class="voice-assistant">
+            <h3>Voice Assistant</h3>
+            <button id="start-btn" class="voice-btn">Start Simulation Setup</button>
+            <button id="read-btn" class="voice-btn">Read Current Settings</button>
+            <div id="status" class="status">Click "Start Simulation Setup" to begin guided configuration.</div>
+        </div>
         
         <div class="control-panel">
             <div class="control-group">
                 <label for="material">Nanomaterial Type:</label>
-                <select id="material">
-                    <option value="gold">Gold Nanoparticles</option>
-                    <option value="silver">Silver Nanoparticles</option>
-                    <option value="quantum_dots">Quantum Dots (CdSe)</option>
-                    <option value="carbon">Carbon Nanotubes</option>
-                    <option value="tio2">TiO₂ Nanoparticles</option>
+                <select id="material" disabled>
+                    <option value="">-- Select Material --</option>
+                    <option value="gold"> Gold Nanoparticles 🥇</option>
+                    <option value="silver"> Silver Nanoparticles 🥈</option>
+                    <option value="quantum_dots"> Quantum Dots (CdSe) ✨</option>
+                    <option value="carbon"> Carbon Nanotubes ⚫</option>
+                    <option value="tio2"> TiO₂ Nanoparticles 🔬</option>
                 </select>
             </div>
             
             <div class="control-group">
                 <label for="property">Property to Plot:</label>
-                <select id="property">
+                <select id="property" disabled>
+                    <option value="">-- Select Property --</option>
                     <option value="band_gap">Band Gap (eV)</option>
                     <option value="melting_point">Melting Point (°C)</option>
                     <option value="surface_area">Surface Area (m²/g)</option>
@@ -37,53 +51,56 @@
             </div>
             
             <div class="control-group">
-                <label for="size-range">Size Range (nm):</label>
-                <input type="range" id="size-range" min="1" max="100" value="50" step="1">
-                <div>Selected Size: <span id="size-value">50</span> nm</div>
-            </div>
-            
-            <div class="control-group">
                 <label for="shape">Nanoparticle Shape:</label>
-                <select id="shape">
+                <select id="shape" disabled>
+                    <option value="">-- Select Shape --</option>
                     <option value="sphere">Sphere</option>
                     <option value="rod">Rod</option>
                     <option value="cube">Cube</option>
                     <option value="tetrahedron">Tetrahedron</option>
                 </select>
+            </div>
+            
+            <div class="control-group">
+                <label for="size-input">Size (nm):</label>
+                <input type="number" id="size-input" min="1" max="100" value="50" disabled>
                 
                 <div class="checkbox-group">
                     <label>
-                        <input type="checkbox" id="show-fluctuations" checked>
+                        <input type="checkbox" id="show-fluctuations" checked disabled>
                         Show Experimental Fluctuations
                     </label>
                 </div>
                 
                 <div class="checkbox-group">
                     <label>
-                        <input type="checkbox" id="show-trendline">
+                        <input type="checkbox" id="show-trendline" disabled>
                         Show Theoretical Trendline
                     </label>
                 </div>
             </div>
         </div>
         
-        <button id="simulate-btn">Run Simulation</button>
+        <button id="simulate-btn" disabled>Run Simulation</button>
         
         <div class="visualization">
             <div id="plot-container" class="plot-container"></div>
             <div id="model-container" class="model-container"></div>
-        </div>
-        
-        <div class="info-panel">
-            <h3>Scientific Insights</h3>
-            <div id="science-info">
-                <p>Select parameters and run simulation to see how nanomaterial properties change with size. 
-                The plot will show experimental data points with natural fluctuations, while the 3D model 
-                displays the nanoparticle at the selected size.</p>
+            <div id="info-panel" class="info-panel">
+                <h3>Scientific Insights</h3>
+                <div id="science-info">
+                    <p>Click "Start Simulation Setup" to begin configuring your nanomaterial simulation. The voice assistant will guide you through each step.</p>
+                </div>
             </div>
         </div>
     </div>
 
+    <footer>
+        <p>&copy; 2025 Nanomaterial Properties Simulator. All rights reserved.</p>
+        <p>Simulating the fascinating quantum world at your fingertips.</p>
+    </footer>
+
     <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
 </body>
 </html>
