@@ -6,7 +6,7 @@ _****Procedure:****_<br>
 ****Step 4:-**** Select the Nanoparticle shape.<br>
 ****Step 5:-**** Enter the Nanomaterial size.<br>
 ****Step 6:-**** Mark experimental fluctuations.<br>
-****Step 6:-**** Mark the Theoretical trendline.<br>
+****Step 7:-**** Mark the Theoretical trendline.<br>
 ****Step 7:-**** Click on the "Run simulation".<br>
 ****Step 8:-**** Now, observe the graph.<br>
 ****Step 8:-**** Now, hover the 3D model of shape for best visualization.<br>
