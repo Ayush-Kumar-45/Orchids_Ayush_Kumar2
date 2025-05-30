@@ -75,7 +75,7 @@ Semiconductors: Size and shape tune bandgap-related absorption.
 
 Insulators: Minimal absorption in visible; shape effects less pronounced.
 
-5. Electrical Conductivity
+****5. Electrical Conductivity****
 Size Effect:
 Conductivity can decrease due to increased electron scattering in very small nanoparticles.
 
