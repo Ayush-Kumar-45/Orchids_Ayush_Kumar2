@@ -9,5 +9,5 @@ _****Procedure:****_<br>
 ****Step 7:-**** Mark the Theoretical trendline.<br>
 ****Step 8:-**** Click on the "Run simulation".<br>
 ****Step 9:-**** Now, observe the graph.<br>
-****Step 10:-**** Now, hover the 3D model of shape for best visualization.<br>
+****Step 10:-**** Hover the 3D model of shape for best visualization.<br>
 ****Step 11:-**** Reset for further simulation.<br>
