@@ -53,8 +53,7 @@ Rods, stars, and other anisotropic shapes show multiple plasmon modes, tuning ab
 
 For semiconductors, shape alters quantum confinement and thus absorption edges.
 
-Type Effect:
-Metals: Strong size- and shape-dependent plasmonic absorption.
+Type Effect: Metals: Strong size- and shape-dependent plasmonic absorption.
 
 Semiconductors: Size and shape tune bandgap-related absorption.
 
@@ -67,9 +66,7 @@ Shape Effect:Nanowires and nanotubes can provide conductive pathways with less s
 
 Spherical particles with high surface scattering show lower conductivity.
 
-Type Effect:
-
-Metals: Conductivity strongly affected by size and shape due to electron mean free path changes.
+Type Effect: Metals: Conductivity strongly affected by size and shape due to electron mean free path changes.
 
 Semiconductors: Electrical properties tunable by size/shape-induced bandgap changes and surface states.
 
