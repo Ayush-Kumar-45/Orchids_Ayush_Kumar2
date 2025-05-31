@@ -11,3 +11,4 @@ _****Procedure:****_<br>
 ****Step 9:-**** Now, observe the graph.<br>
 ****Step 10:-**** Hover the 3D model of shape for best visualization.<br>
 ****Step 11:-**** Reset for further simulation.<br>
+<img src="https://github.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_2/blob/main/experiment/images/nanomaterial.png?raw=true" alt="Nanomaterial Image" height="500"/>
