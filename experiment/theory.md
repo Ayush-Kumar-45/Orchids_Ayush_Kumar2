@@ -2,7 +2,9 @@
 ****Introduction to Nanomaterials****<br>
 Nanomaterials are materials engineered at the nanoscale, typically between 1 and 100 nanometers in size. At this scale, materials exhibit unique physical, chemical, and biological properties that differ significantly from their bulk counterparts due to quantum effects and a high surface-to-volume ratio. These distinctive properties make nanomaterials highly valuable for a wide range of applications including electronics, medicine, energy, and environmental science.
 
-The field of nanotechnology explores the manipulation and control of matter at this atomic and molecular scale to create materials with enhanced or entirely new functionalities. Nanomaterials can take various forms such as nanoparticles, nanowires, nanotubes, nanosheets, and quantum dots, each exhibiting specific characteristics influenced by their size, shape, and composition.<br>
+The field of nanotechnology explores the manipulation and control of matter at this atomic and molecular scale to create materials with enhanced or entirely new functionalities. Nanomaterials can take various forms such as nanoparticles, nanowires, nanotubes, nanosheets, and quantum dots, each exhibiting specific characteristics influenced by their size, shape, and composition.<br> 
+ 
+
 ****Influence of Nanoparticle Size, Shape, and Type on Key Properties****<br>
 Nanomaterials’ properties strongly depend not only on their size but also on their shape and material type (metal, semiconductor, insulator). These factors together affect their bandgap, surface area, melting point, absorption wavelength, and electrical conductivity.
 
@@ -71,3 +73,7 @@ Type Effect: Metals: Conductivity strongly affected by size and shape due to ele
 Semiconductors: Electrical properties tunable by size/shape-induced bandgap changes and surface states.
 
 Insulators: Typically poor conductors regardless of shape or size.
+<br>
+
+<img src="https://github.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_2/blob/main/experiment/images/nanomaterial%20new.png" height="500px">
+<br>
