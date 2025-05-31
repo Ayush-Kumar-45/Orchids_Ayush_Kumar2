@@ -82,5 +82,6 @@ Semiconductors: Electrical properties tunable by size/shape-induced bandgap chan
 Insulators: Typically poor conductors regardless of shape or size.
 <br>
 
+
 <img src="https://github.com/Ayush-Kumar-45/Orchids_Ayush_Kumar_2/blob/main/experiment/images/nanomaterial%20new.png" height="500px">
 <br>
