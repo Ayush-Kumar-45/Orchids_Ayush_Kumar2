@@ -1,7 +1,7 @@
 ****NANOMATERIAL SIZE VS PROPERTY PLOTTER****<BR>
 
 _****~Procedure:****_<br>
-****Step 1:-**** Click on strat button to start the simulation.<br>
+****Step 1:-**** Click on start button to start the simulation.<br>
 ****Step 2:-**** Select the Nanomaterial type.<br>
 ****Step 3:-**** Select the property to plot.<br>
 ****Step 4:-**** Select the Nanoparticle shape.<br>
